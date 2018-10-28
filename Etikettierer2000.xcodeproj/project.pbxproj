@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD7A9C1C2180682A00E46D7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9C1B2180682A00E46D7A /* AppDelegate.swift */; };
+		DD7A9C1E2180682A00E46D7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9C1D2180682A00E46D7A /* ViewController.swift */; };
+		DD7A9C202180682B00E46D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7A9C1F2180682B00E46D7A /* Assets.xcassets */; };
+		DD7A9C232180682B00E46D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7A9C212180682B00E46D7A /* Main.storyboard */; };
+		DD7A9C2F2180682B00E46D7A /* Etikettierer2000Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9C2E2180682B00E46D7A /* Etikettierer2000Tests.swift */; };
+		DD7A9C3A2180682B00E46D7A /* Etikettierer2000UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7A9C392180682B00E46D7A /* Etikettierer2000UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD7A9C2B2180682B00E46D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7A9C102180682A00E46D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7A9C172180682A00E46D7A;
+			remoteInfo = Etikettierer2000;
+		};
+		DD7A9C362180682B00E46D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD7A9C102180682A00E46D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD7A9C172180682A00E46D7A;
+			remoteInfo = Etikettierer2000;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD7A9C182180682A00E46D7A /* Etikettierer2000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Etikettierer2000.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7A9C1B2180682A00E46D7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD7A9C1D2180682A00E46D7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD7A9C1F2180682B00E46D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD7A9C222180682B00E46D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD7A9C242180682B00E46D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7A9C252180682B00E46D7A /* Etikettierer2000.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Etikettierer2000.entitlements; sourceTree = "<group>"; };
+		DD7A9C2A2180682B00E46D7A /* Etikettierer2000Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Etikettierer2000Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7A9C2E2180682B00E46D7A /* Etikettierer2000Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etikettierer2000Tests.swift; sourceTree = "<group>"; };
+		DD7A9C302180682B00E46D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7A9C352180682B00E46D7A /* Etikettierer2000UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Etikettierer2000UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7A9C392180682B00E46D7A /* Etikettierer2000UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etikettierer2000UITests.swift; sourceTree = "<group>"; };
+		DD7A9C3B2180682B00E46D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD7A9C152180682A00E46D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7A9C272180682B00E46D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7A9C322180682B00E46D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD7A9C0F2180682A00E46D7A = {
+			isa = PBXGroup;
+			children = (
+				DD7A9C1A2180682A00E46D7A /* Etikettierer2000 */,
+				DD7A9C2D2180682B00E46D7A /* Etikettierer2000Tests */,
+				DD7A9C382180682B00E46D7A /* Etikettierer2000UITests */,
+				DD7A9C192180682A00E46D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD7A9C192180682A00E46D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A9C182180682A00E46D7A /* Etikettierer2000.app */,
+				DD7A9C2A2180682B00E46D7A /* Etikettierer2000Tests.xctest */,
+				DD7A9C352180682B00E46D7A /* Etikettierer2000UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD7A9C1A2180682A00E46D7A /* Etikettierer2000 */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A9C1B2180682A00E46D7A /* AppDelegate.swift */,
+				DD7A9C1D2180682A00E46D7A /* ViewController.swift */,
+				DD7A9C1F2180682B00E46D7A /* Assets.xcassets */,
+				DD7A9C212180682B00E46D7A /* Main.storyboard */,
+				DD7A9C242180682B00E46D7A /* Info.plist */,
+				DD7A9C252180682B00E46D7A /* Etikettierer2000.entitlements */,
+			);
+			path = Etikettierer2000;
+			sourceTree = "<group>";
+		};
+		DD7A9C2D2180682B00E46D7A /* Etikettierer2000Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A9C2E2180682B00E46D7A /* Etikettierer2000Tests.swift */,
+				DD7A9C302180682B00E46D7A /* Info.plist */,
+			);
+			path = Etikettierer2000Tests;
+			sourceTree = "<group>";
+		};
+		DD7A9C382180682B00E46D7A /* Etikettierer2000UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD7A9C392180682B00E46D7A /* Etikettierer2000UITests.swift */,
+				DD7A9C3B2180682B00E46D7A /* Info.plist */,
+			);
+			path = Etikettierer2000UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD7A9C172180682A00E46D7A /* Etikettierer2000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7A9C3E2180682B00E46D7A /* Build configuration list for PBXNativeTarget "Etikettierer2000" */;
+			buildPhases = (
+				DD7A9C142180682A00E46D7A /* Sources */,
+				DD7A9C152180682A00E46D7A /* Frameworks */,
+				DD7A9C162180682A00E46D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Etikettierer2000;
+			productName = Etikettierer2000;
+			productReference = DD7A9C182180682A00E46D7A /* Etikettierer2000.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD7A9C292180682B00E46D7A /* Etikettierer2000Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7A9C412180682B00E46D7A /* Build configuration list for PBXNativeTarget "Etikettierer2000Tests" */;
+			buildPhases = (
+				DD7A9C262180682B00E46D7A /* Sources */,
+				DD7A9C272180682B00E46D7A /* Frameworks */,
+				DD7A9C282180682B00E46D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7A9C2C2180682B00E46D7A /* PBXTargetDependency */,
+			);
+			name = Etikettierer2000Tests;
+			productName = Etikettierer2000Tests;
+			productReference = DD7A9C2A2180682B00E46D7A /* Etikettierer2000Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD7A9C342180682B00E46D7A /* Etikettierer2000UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7A9C442180682B00E46D7A /* Build configuration list for PBXNativeTarget "Etikettierer2000UITests" */;
+			buildPhases = (
+				DD7A9C312180682B00E46D7A /* Sources */,
+				DD7A9C322180682B00E46D7A /* Frameworks */,
+				DD7A9C332180682B00E46D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7A9C372180682B00E46D7A /* PBXTargetDependency */,
+			);
+			name = Etikettierer2000UITests;
+			productName = Etikettierer2000UITests;
+			productReference = DD7A9C352180682B00E46D7A /* Etikettierer2000UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD7A9C102180682A00E46D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Max Amanshauser";
+				TargetAttributes = {
+					DD7A9C172180682A00E46D7A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					DD7A9C292180682B00E46D7A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DD7A9C172180682A00E46D7A;
+					};
+					DD7A9C342180682B00E46D7A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DD7A9C172180682A00E46D7A;
+					};
+				};
+			};
+			buildConfigurationList = DD7A9C132180682A00E46D7A /* Build configuration list for PBXProject "Etikettierer2000" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD7A9C0F2180682A00E46D7A;
+			productRefGroup = DD7A9C192180682A00E46D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD7A9C172180682A00E46D7A /* Etikettierer2000 */,
+				DD7A9C292180682B00E46D7A /* Etikettierer2000Tests */,
+				DD7A9C342180682B00E46D7A /* Etikettierer2000UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD7A9C162180682A00E46D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7A9C202180682B00E46D7A /* Assets.xcassets in Resources */,
+				DD7A9C232180682B00E46D7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7A9C282180682B00E46D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7A9C332180682B00E46D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD7A9C142180682A00E46D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7A9C1E2180682A00E46D7A /* ViewController.swift in Sources */,
+				DD7A9C1C2180682A00E46D7A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7A9C262180682B00E46D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7A9C2F2180682B00E46D7A /* Etikettierer2000Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7A9C312180682B00E46D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7A9C3A2180682B00E46D7A /* Etikettierer2000UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD7A9C2C2180682B00E46D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7A9C172180682A00E46D7A /* Etikettierer2000 */;
+			targetProxy = DD7A9C2B2180682B00E46D7A /* PBXContainerItemProxy */;
+		};
+		DD7A9C372180682B00E46D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD7A9C172180682A00E46D7A /* Etikettierer2000 */;
+			targetProxy = DD7A9C362180682B00E46D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD7A9C212180682B00E46D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7A9C222180682B00E46D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD7A9C3C2180682B00E46D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD7A9C3D2180682B00E46D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DD7A9C3F2180682B00E46D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Etikettierer2000/Etikettierer2000.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Etikettierer2000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lambdalifting.Etikettierer2000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		DD7A9C402180682B00E46D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Etikettierer2000/Etikettierer2000.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Etikettierer2000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lambdalifting.Etikettierer2000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		DD7A9C422180682B00E46D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Etikettierer2000Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lambdalifting.Etikettierer2000Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etikettierer2000.app/Contents/MacOS/Etikettierer2000";
+			};
+			name = Debug;
+		};
+		DD7A9C432180682B00E46D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Etikettierer2000Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lambdalifting.Etikettierer2000Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Etikettierer2000.app/Contents/MacOS/Etikettierer2000";
+			};
+			name = Release;
+		};
+		DD7A9C452180682B00E46D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Etikettierer2000UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lambdalifting.Etikettierer2000UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Etikettierer2000;
+			};
+			name = Debug;
+		};
+		DD7A9C462180682B00E46D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Etikettierer2000UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.lambdalifting.Etikettierer2000UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = Etikettierer2000;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD7A9C132180682A00E46D7A /* Build configuration list for PBXProject "Etikettierer2000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7A9C3C2180682B00E46D7A /* Debug */,
+				DD7A9C3D2180682B00E46D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7A9C3E2180682B00E46D7A /* Build configuration list for PBXNativeTarget "Etikettierer2000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7A9C3F2180682B00E46D7A /* Debug */,
+				DD7A9C402180682B00E46D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7A9C412180682B00E46D7A /* Build configuration list for PBXNativeTarget "Etikettierer2000Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7A9C422180682B00E46D7A /* Debug */,
+				DD7A9C432180682B00E46D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7A9C442180682B00E46D7A /* Build configuration list for PBXNativeTarget "Etikettierer2000UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7A9C452180682B00E46D7A /* Debug */,
+				DD7A9C462180682B00E46D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD7A9C102180682A00E46D7A /* Project object */;
+}
